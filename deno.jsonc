@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "checkJs": true
+  },
+  /**
+   * Uncomment to not use global Deno cache for packages
+   * https://docs.deno.com/runtime/fundamentals/node/#node_modules
+   * https://docs.deno.com/runtime/fundamentals/configuration/#node-modules-directory
+   */
+  // "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run --watch --allow-sys src/main.ts",
+    "test": "deno test src/main_test.ts",
+    "check:type": "deno check src/main.ts"
+  },
+  /**
+   * https://docs.deno.com/runtime/fundamentals/modules/#managing-third-party-modules-and-libraries
+   * https://docs.deno.com/runtime/fundamentals/configuration/#dependencies
+   */
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.10",
+    "node-emoji": "npm:node-emoji@^2.2.0"
+  }
+}
