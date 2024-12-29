@@ -1,17 +1,15 @@
-# experiments--python-deno--code-exporer--jupyter-notebooks
+# experiments--python-deno--code-explorer--jupyter-notebooks
 
-## Local setup
-
-### Requirements
+## Requirements
 
 - Python
-  - See `pyproject.toml` and `.tool-versions` for suitable version
+  - See `pyproject.toml` and `.tool-versions` for a suitable version
 - Poetry
-  - See `poetry.lock` for the suitable version
+  - See `poetry.lock` for a suitable version
 - Deno
-  - See `deno.json` for the suitable version
+  - See `deno.json` and `.tool-versions` for a suitable version
 
-### Poetry
+## Poetry
 
 ```bash
 poetry --version
