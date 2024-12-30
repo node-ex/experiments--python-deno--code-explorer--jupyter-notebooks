@@ -24,9 +24,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-  /* TypeScript */
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.preferences.importModuleSpecifier": "project-relative",
   /* Deno */
   "deno.enable": true,
   "deno.lint": true
