@@ -18,6 +18,7 @@
    * https://docs.deno.com/runtime/fundamentals/configuration/#dependencies
    */
   "imports": {
+    "@anthropic-ai/sdk": "npm:@anthropic-ai/sdk@^0.33.1",
     "@std/assert": "jsr:@std/assert@^1.0.10",
     "node-emoji": "npm:node-emoji@^2.2.0",
     "openapi": "npm:openapi@^1.0.1",
