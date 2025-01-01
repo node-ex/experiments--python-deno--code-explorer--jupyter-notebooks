@@ -7,7 +7,8 @@
     "npm:@types/node@*": "22.5.4",
     "npm:node-emoji@*": "2.2.0",
     "npm:node-emoji@2.2.0": "2.2.0",
-    "npm:node-emoji@^2.2.0": "2.2.0"
+    "npm:node-emoji@^2.2.0": "2.2.0",
+    "npm:typescript@^5.7.2": "5.7.2"
   },
   "jsr": {
     "@std/assert@1.0.10": {
@@ -51,6 +52,9 @@
         "unicode-emoji-modifier-base"
       ]
     },
+    "typescript@5.7.2": {
+      "integrity": "sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg=="
+    },
     "undici-types@6.19.8": {
       "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
     },
@@ -61,7 +65,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@^1.0.10",
-      "npm:node-emoji@^2.2.0"
+      "npm:node-emoji@^2.2.0",
+      "npm:typescript@^5.7.2"
     ]
   }
 }
